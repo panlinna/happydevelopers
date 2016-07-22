@@ -10,7 +10,7 @@ class LeftNavButton extends Component {
   render () {
     return(
       <div>
-        <button onClick={this.handleClick.bind(this)}>click</button>
+        <button onClick={this.handleClick.bind(this)} className="mybutton">click</button>
         <Drawer ref='LeftNav'/>
       </div>
     )
